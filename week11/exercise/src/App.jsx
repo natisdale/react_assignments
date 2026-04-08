@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "./App.css";
+import "./css/app.css";
 import SimpleCard from "./SimpleCard";
 import Footer from "./Footer";
 
@@ -14,6 +14,10 @@ function App() {
       <SimpleCard
         title="Hello Card"
         content="This is my first card component."
+      />
+      <SimpleCard
+        title="Goodbye Card"
+        content="This is my last card component."
       />
       {/* Render the footer with copyright information */}
 
