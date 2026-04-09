@@ -1,3 +1,4 @@
+import "./css/index.css";
 import "./css/app.css";
 
 function Header() {
@@ -10,7 +11,7 @@ function Header() {
 
 function ProjectCard({ name, description }) {
   return (
-    <div>
+    <div className="project-card">
       <h2>{name}</h2>
       <p>{description}</p>
     </div>
@@ -20,7 +21,7 @@ function ProjectCard({ name, description }) {
 function Footer() {
   return (
     <footer>
-      <p>&copy; 2026 My React Portfolio</p>
+      <p>&copy; 2026 Nathan Tisdale</p>
     </footer>
   );
 }
@@ -30,14 +31,8 @@ function App() {
     <div>
       <Header />
       <p>Hello World!</p>
-      <ProjectCard
-        name="Project 1"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-      />
-      <ProjectCard
-        name="Project 2"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-      />
+      <ProjectCard name="Project One" description="First React Component" />
+      <ProjectCard name="Project Two" description="Learning Props" />
       <Footer />
     </div>
   );
