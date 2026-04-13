@@ -17,7 +17,7 @@ Part of the Master of Arts in Graphic and Web Design program @ [MCAD](https://ww
 
 ## GitHub Pages
 
-### Week 11 Components & Props
+### Week 11 React Components & Props
 
 - [exercise](https://natisdale.github.io/react_assignments/week11/exercise/)
 - [assignment](https://natisdale.github.io/react_assignments/week11/assignment)
