@@ -13,7 +13,7 @@ Part of the Master of Arts in Graphic and Web Design program @ [MCAD](https://ww
 
 ### Week 12 Working with Data in React
 
-- [exericis](https://github.com/natisdale/react_assignments/tree/main/week12/exercise)
+- [exericise](https://github.com/natisdale/react_assignments/tree/main/week12/exercise)
 
 ## GitHub Pages
 
