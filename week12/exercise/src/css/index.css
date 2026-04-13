@@ -1,7 +1,7 @@
 :root {
   --text: #343434;
   --text-h: #08060d;
-  --bg: #acacf0;
+  --bg: #f1ecc0;
   --border: #e5e4e7;
   --code-bg: #f4f3ec;
   --accent: #aa3bff;
@@ -19,7 +19,9 @@
   letter-spacing: 0.18px;
   color-scheme: light dark;
   color: var(--text);
-  background: var(--bg);
+  /* background: var(--bg); */
+  background: #ffffff url("../../public/pexels-ian-panelo-4602495.jpg")
+    no-repeat right top;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -49,7 +51,6 @@ body {
 h1,
 h2 {
   font-family: var(--heading);
-  font-weight: 500;
   color: var(--text-h);
 }
 
