@@ -2,7 +2,7 @@ import ProjectCard from "../components/ProjectCard";
 
 function ProjectList({ projects }) {
   return (
-    <>
+    <div className="project-list">
       {projects.map((project) => (
         <ProjectCard
           key={project.id}
@@ -12,7 +12,7 @@ function ProjectList({ projects }) {
           image={project.image}
         />
       ))}
-    </>
+    </div>
   );
 }
 export default ProjectList;
