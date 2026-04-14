@@ -20,8 +20,7 @@
   color-scheme: light dark;
   color: var(--text);
   /* background: var(--bg); */
-  background: #ffffff url("../../public/pexels-ian-panelo-4602495.jpg")
-    no-repeat center top;
+  background: #ffffff url("pexels-ian-panelo-4602495.jpg") no-repeat center top;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
