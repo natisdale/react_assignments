@@ -2,7 +2,7 @@ function Header() {
   return (
     <header>
       <img
-        src="public/nat-logo-black.png"
+        src="nat-logo-black.png"
         alt="Nate's Logo"
         className="logo"
         height={100}
