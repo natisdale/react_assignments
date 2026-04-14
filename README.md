@@ -14,6 +14,7 @@ Part of the Master of Arts in Graphic and Web Design program @ [MCAD](https://ww
 ### Week 12 Working with Data in React
 
 - [exericise](https://github.com/natisdale/react_assignments/tree/main/week12/exercise)
+- [assignment](https://github.com/natisdale/react_assignments/tree/main/week12/assignment)
 
 ## GitHub Pages
 
@@ -25,3 +26,4 @@ Part of the Master of Arts in Graphic and Web Design program @ [MCAD](https://ww
 ### Week 12 Working with Data in React
 
 - [exercise](https://natisdale.github.io/react_assignments/week12/exercise/)
+- [assignment](https://natisdale.github.io/react_assignments/week12/assignment)
