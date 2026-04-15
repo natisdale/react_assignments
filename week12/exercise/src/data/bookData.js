@@ -70,4 +70,14 @@ export const books = [
     projectGutenbergLink: "https://www.gutenberg.org/ebooks/4656",
     category: "strategy",
   },
+  {
+    id: 8,
+    title: "The 64-Square Madhouse by Fritz Leiber",
+    author: "Fritz Leiber",
+    description:
+      "a science fiction novella written in the early 1960s. The story delves into the world of competitive chess, particularly focusing on an international tournament featuring an advanced chess-playing machine. The narrative explores themes of human intellect versus artificial intelligence, illustrating the complexities and psychological nuances of chess in a high-stakes environment. The plot centers on Sandra Lea Grayling, a journalist covering the tournament, who interacts with various chess grandmasters and witnesses the performance of the machine designed to compete against human players. Throughout the story, Sandra learns about the intricacies of chess, the personalities of the competitors, and the pressures they face. The tension escalates as the machine plays against renowned masters like Igor Jandorf and Mikhail Votbinnik, revealing both its strengths and limitations. Amidst the competition, characters engage in exuberant dialogue about the nature of chess, the advancements in technology, and the philosophical implications of a machine capable of strategic thought, leading to a climax that questions the future of human versus machine in the realm of intellect and competition. (This is an automatically generated summary.)",
+    coverImage: "books/pg61213.cover.medium.jpg",
+    projectGutenbergLink: "https://www.gutenberg.org/ebooks/61213",
+    category: "fiction",
+  },
 ];
