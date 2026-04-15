@@ -1,0 +1,24 @@
+import BookCard from "./BookCard";
+
+function BookList({ books }) {
+  return (
+    <div>
+      <h2>Book List</h2>
+      <ul>
+        {/* Render the BookCard component and pass title, author, and description as props */}
+        {books.map((book) => (
+          <BookCard
+            key={book.id}
+            title={book.title}
+            author={book.author}
+            coverImage={book.coverImage}
+            description={book.description}
+            projectGutenbergLink={book.projectGutenbergLink}
+          />
+        ))}
+      </ul>
+    </div>
+  );
+}
+
+export default BookList;

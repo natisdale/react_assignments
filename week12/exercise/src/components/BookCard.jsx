@@ -1,6 +1,3 @@
-// Import the CSS file for global or component styles
-import "../css/app.css";
-
 // SimpleCard component that takes in title and content as props
 // This is a functional component that accepts props and returns JSX to render a styled card
 function BookCard({
