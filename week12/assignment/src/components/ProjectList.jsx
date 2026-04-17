@@ -10,6 +10,7 @@ function ProjectList({ projects }) {
           description={project.description}
           url={project.url}
           image={project.image}
+          githubPagesUrl={project.githubPagesUrl}
         />
       ))}
     </div>

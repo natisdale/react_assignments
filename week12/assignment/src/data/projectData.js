@@ -73,5 +73,6 @@ export const projects = [
     description: "Updated version of lane-splitting game with classes and OOP",
     url: "https://editor.p5js.org/natisdale/full/LUwYOZU5B",
     image: "images/lanesplitter.gif",
+    githubPagesUrl: "https://natisdale.github.io/lanesplitter.us/",
   },
 ];

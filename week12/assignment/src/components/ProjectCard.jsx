@@ -1,4 +1,4 @@
-function ProjectCard({ id, name, description, url, image }) {
+function ProjectCard({ name, description, url, image, githubPagesUrl }) {
   return (
     <div className="project-card">
       <div className="image">
@@ -7,9 +7,24 @@ function ProjectCard({ id, name, description, url, image }) {
       <div className="content">
         <h2>{name}</h2>
         <p>{description}</p>
-        <a href={url} target="_blank" rel="noopener noreferrer">
-          View Project
+        <a
+          href={url}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="sketch"
+        >
+          View Sketch
         </a>
+        {githubPagesUrl && (
+          <a
+            href={githubPagesUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="github-pages"
+          >
+            View on GitHub Pages
+          </a>
+        )}
       </div>
     </div>
   );
