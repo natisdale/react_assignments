@@ -24,6 +24,14 @@ header {
   box-shadow: --shadow;
 }
 
+.project-card img {
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  max-height: 300px;
+  border-radius: 10px;
+}
+
 .sketch {
   display: inline-block;
   margin-top: 10px;

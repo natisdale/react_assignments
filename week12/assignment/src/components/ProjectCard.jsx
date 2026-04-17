@@ -22,7 +22,7 @@ function ProjectCard({ name, description, url, image, githubPagesUrl }) {
             rel="noopener noreferrer"
             className="github-pages"
           >
-            View on GitHub Pages
+            Mobile-friendly Site
           </a>
         )}
       </div>
