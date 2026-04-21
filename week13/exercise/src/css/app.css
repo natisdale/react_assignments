@@ -24,7 +24,15 @@
   flex-direction: column;
   gap: 10px;
 }
-
+.read-button {
+  padding: 10px 20px;
+  background-color: var(--accent-bg);
+  color: var(--accent);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px 0;
+}
 @media (max-width: 768px) {
   .book-card {
     flex-direction: column;
