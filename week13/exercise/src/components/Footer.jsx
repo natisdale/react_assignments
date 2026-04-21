@@ -1,7 +1,7 @@
 function Footer() {
   return (
     <footer>
-      <p>Here is my Footer!</p>
+      <p>Copyright © 2026 Nathan Tisdale. All rights reserved.</p>
     </footer>
   );
 }
