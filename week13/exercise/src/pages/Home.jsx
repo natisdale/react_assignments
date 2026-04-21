@@ -1,3 +1,4 @@
+import NavBar from "../components/NavBar.jsx";
 import { books } from "../data/bookData.js";
 import BookList from "../components/BookList.jsx";
 import Footer from "../components/Footer.jsx";
@@ -7,6 +8,7 @@ function Home() {
     <>
       {/* Page heading */}
       <h1>Chess Books</h1>
+      <NavBar />
       <main>
         <div id="fiction-books">
           <h2>Fiction</h2>
