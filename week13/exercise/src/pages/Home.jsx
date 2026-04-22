@@ -1,15 +1,11 @@
-import NavBar from "../components/NavBar.jsx";
 import { books } from "../data/bookData.js";
 import BookList from "../components/BookList.jsx";
-import Footer from "../components/Footer.jsx";
 
 function Home() {
   return (
     <>
-      {/* Page heading */}
-      <h1>Chess Books</h1>
-      <NavBar />
       <main>
+        <h1>Chess Books</h1>
         <div id="fiction-books">
           <h2>Fiction</h2>
           <BookList
@@ -29,8 +25,6 @@ function Home() {
           />
         </div>
       </main>
-      {/* Render the footer with copyright information */}
-      <Footer />
     </>
   );
 }

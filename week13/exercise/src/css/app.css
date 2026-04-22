@@ -55,6 +55,10 @@ nav li:hover {
   flex-direction: column;
   gap: 10px;
 }
+.truncated-description {
+  height: 10.8rem;
+  overflow: hidden;
+}
 .read-button {
   padding: 10px 20px;
   background-color: var(--accent-bg);

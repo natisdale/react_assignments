@@ -1,14 +1,16 @@
 export default function Navbar() {
   return (
-    <nav>
-      <ul>
-        <li>
-          <a href="/">Home</a>
-        </li>
-        <li>
-          <a href="/about">About</a>
-        </li>
-      </ul>
-    </nav>
+    <>
+      <nav>
+        <ul>
+          <li>
+            <a href="/">Home</a>
+          </li>
+          <li>
+            <a href="/">About</a>
+          </li>
+        </ul>
+      </nav>
+    </>
   );
 }
