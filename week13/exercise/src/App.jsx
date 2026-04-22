@@ -1,9 +1,9 @@
 // Import the CSS file for global or component styles
 import "./css/app.css";
-import NavBar from "/src/components/NavBar.jsx";
+import NavBar from "./components/NavBar.jsx";
 import Home from "./pages/Home.jsx";
 import About from "./pages/About.jsx";
-import Footer from "/src/components/Footer.jsx";
+import Footer from "./components/Footer.jsx";
 
 function App() {
   return (

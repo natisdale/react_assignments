@@ -1,4 +1,4 @@
-function Navbar() {
+function NavBar() {
   return (
     <>
       <nav>
