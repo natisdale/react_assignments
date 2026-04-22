@@ -7,6 +7,38 @@
   color: --text;
 }
 
+nav {
+  background-color: var(--bg);
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+nav ul {
+  width: fit-content;
+  margin: 0 auto;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+nav li {
+  padding: 5px 10px;
+  cursor: pointer;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+}
+nav a {
+  text-decoration: none;
+  color: #111;
+}
+nav li:hover {
+  border: 2px solid #f7f0f0;
+  border-radius: 5px;
+}
+
 header {
   padding: 20px;
   border-radius: 10px;
@@ -57,6 +89,7 @@ footer {
 
 .project-list {
   display: grid;
+  align-items: start;
   grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
   gap: 20px;
 }

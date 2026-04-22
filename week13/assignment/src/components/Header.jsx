@@ -1,13 +1,4 @@
 function Header() {
-  return (
-    <header>
-      <img
-        src="nat-logo-black.png"
-        alt="Nate's Logo"
-        className="logo"
-        height={100}
-      />
-    </header>
-  );
+  return <header></header>;
 }
 export default Header;
