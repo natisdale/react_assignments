@@ -1,6 +1,6 @@
 // Import the CSS file for global or component styles
 import "./css/app.css";
-import NavBar from "./components/NavBar.jsx";
+import NavBar from "./components/Navbar.jsx";
 import Home from "./pages/Home.jsx";
 import About from "./pages/About.jsx";
 import Footer from "./components/Footer.jsx";
