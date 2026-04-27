@@ -1,6 +1,6 @@
 // Import the CSS file for global or component styles
 import "./css/app.css";
-import NavBar from "./components/Navbar.jsx";
+import NavBar from "./components/NavBar.jsx";
 import Home from "./pages/Home.jsx";
 import About from "./pages/About.jsx";
 import Footer from "./components/Footer.jsx";
@@ -13,7 +13,7 @@ function App() {
         <NavBar />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/aboute" element={<About />} />
+          <Route path="/about" element={<About />} />
         </Routes>
         <Footer />
       </HashRouter>
