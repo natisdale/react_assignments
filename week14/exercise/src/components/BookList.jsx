@@ -3,7 +3,7 @@ import BookCard from "./BookCard";
 function BookList({ books }) {
   return (
     <div>
-      <ul>
+      <ul className="books-grid">
         {/* Render the BookCard component and pass title, author, and description as props */}
         {books.map((book) => (
           <BookCard
