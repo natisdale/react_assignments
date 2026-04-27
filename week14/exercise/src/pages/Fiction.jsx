@@ -1,17 +1,19 @@
 import { books } from "../data/bookData.js";
 import BookList from "../components/BookList.jsx";
 
-function Home() {
+function Fiction() {
   return (
     <>
       <main>
-        <h1>Chess Books</h1>
+        <h1>Chess Fiction</h1>
         <div id="fiction-books">
-          <BookList books={books} />
+          <BookList
+            books={books.filter((book) => book.category === "fiction")}
+          />
         </div>
       </main>
     </>
   );
 }
 
-export default Home;
+export default Fiction;
