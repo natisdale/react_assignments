@@ -3,8 +3,11 @@ import Footer from "../components/Footer.jsx";
 export default function About() {
   return (
     <div>
-      <h2>About Us</h2>
-      <p>Welcome to our chess book store!</p>
+      <h1>About</h1>
+      <p>
+        This short list of books is dedicated to providing the best chess
+        resources for players of all levels.
+      </p>
     </div>
   );
 }
