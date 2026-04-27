@@ -28,6 +28,10 @@ To launch one of the exercises or assignments locally:
 - [exericise](https://github.com/natisdale/react_assignments/tree/main/week13/exercise)
 - [assignment](https://github.com/natisdale/react_assignments/tree/main/week13/assignment)
 
+### Week 14 Working with Routing in React
+
+- [exericise](https://github.com/natisdale/react_assignments/tree/main/week14/exercise)
+
 ## GitHub Pages
 
 You can pull up a live instance of each of the assignemnts and exercies using the links below.
@@ -46,3 +50,7 @@ You can pull up a live instance of each of the assignemnts and exercies using th
 
 - [exercise](https://natisdale.github.io/react_assignments/week13/exercise/)
 - [assignment](https://natisdale.github.io/react_assignments/week13/assignment)
+
+### Week 14 Working with State
+
+- [exercise](https://natisdale.github.io/react_assignments/week14/exercise/)
