@@ -1,7 +1,7 @@
 import ProjectList from "../components/ProjectList";
 import { projects } from "../data/projectData";
 
-export default function Projects() {
+export default function Projects({ limit }) {
   return (
     <>
       <h1>Projects</h1>

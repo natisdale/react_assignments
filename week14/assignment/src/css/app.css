@@ -7,34 +7,34 @@
   color: --text;
 }
 
-nav {
+.navbar {
   background-color: var(--bg);
   padding: 10px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 1rem;
+  border: 1px solid #ccc;
 }
-nav ul {
+.navbar__list {
   width: fit-content;
   margin: 0 auto;
   list-style: none;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 20px;
+  justify-content: flex-end;
+  gap: 2rem;
 }
-nav li {
+.navbar__item {
   padding: 5px 10px;
   cursor: pointer;
   border: 2px solid #ccc;
   border-radius: 5px;
 }
-nav a {
+.navbar__link {
   text-decoration: none;
   color: #111;
 }
-nav li:hover {
+.navbar__item:hover {
   border: 2px solid #f7f0f0;
   border-radius: 5px;
 }

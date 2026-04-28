@@ -31,6 +31,7 @@ To launch one of the exercises or assignments locally:
 ### Week 14 Working with React Router
 
 - [exericise](https://github.com/natisdale/react_assignments/tree/main/week14/exercise)
+- [assignment](https://github.com/natisdale/react_assignments/tree/main/week14/assignment)
 
 ## GitHub Pages
 
@@ -54,3 +55,4 @@ You can pull up a live instance of each of the assignemnts and exercies using th
 ### Week 14 Working with React Router
 
 - [exercise](https://natisdale.github.io/react_assignments/week14/exercise/)
+- [assignment](https://natisdale.github.io/react_assignments/week14/assignment)

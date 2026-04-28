@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function NavBar() {
   return (
     <nav className="navbar">
@@ -8,14 +10,20 @@ export default function NavBar() {
         height={100}
       />
       <ul className="navbar__list">
-        <li>
-          <a href="/">Home</a>
+        <li className="navbar__item">
+          <Link to="/" className="navbar__link">
+            Home
+          </Link>
         </li>
-        <li>
-          <a href="/">Projects</a>
+        <li className="navbar__item">
+          <Link to="/projects" className="navbar__link">
+            Projects
+          </Link>
         </li>
-        <li>
-          <a href="/">About</a>
+        <li className="navbar__item">
+          <Link to="/about" className="navbar__link">
+            About
+          </Link>
         </li>
       </ul>
     </nav>
