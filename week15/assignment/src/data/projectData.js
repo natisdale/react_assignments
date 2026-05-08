@@ -44,6 +44,7 @@ export const projects = [
     description: "Vera Molnár Squares app simulator",
     url: "https://editor.p5js.org/natisdale/full/wpB1qEGho",
     image: "images/vmsquares.gif",
+    featured: true,
   },
   {
     id: 7,
@@ -51,13 +52,15 @@ export const projects = [
     description: "Ceasar Cipher encoder and decoder",
     url: "https://editor.p5js.org/natisdale/full/XnVWp91FM",
     image: "images/ceasar-cipher.png",
+    featured: true,
   },
   {
     id: 8,
-    name: "Arrays, Methods, and Olgorithms",
+    name: "Arrays, Methods, and Algorithms",
     description: "Bar chart of Top 10 MotoGP Grand Prix winners (1949-2022)",
     url: "https://editor.p5js.org/natisdale/full/S4ahfF_p8",
     image: "images/motogp-bar-chart.gif",
+    featured: true,
   },
   {
     id: 9,
@@ -74,5 +77,6 @@ export const projects = [
     url: "https://editor.p5js.org/natisdale/full/LUwYOZU5B",
     image: "images/lanesplitter.gif",
     githubPagesUrl: "https://natisdale.github.io/lanesplitter.us/",
+    featured: true,
   },
 ];

@@ -5,8 +5,13 @@ function ProjectCard({ name, description, url, image, githubPagesUrl }) {
 
   return (
     <div className="project-card">
-      <div className="image">
-        <img src={image} alt={name} width={300} />
+      <div>
+        <img
+          className="project-card__thumbnail"
+          src={image}
+          alt={name}
+          width={300}
+        />
       </div>
       <div className="content">
         <h2>{name}</h2>
@@ -20,7 +25,7 @@ function ProjectCard({ name, description, url, image, githubPagesUrl }) {
             href={url}
             target="_blank"
             rel="noopener noreferrer"
-            className="sketch"
+            className="project-card__button--sketch"
           >
             View Sketch
           </a>
@@ -31,7 +36,7 @@ function ProjectCard({ name, description, url, image, githubPagesUrl }) {
             href={githubPagesUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="github-pages"
+            className="project-card__button--github-pages"
           >
             Mobile-friendly Site
           </a>

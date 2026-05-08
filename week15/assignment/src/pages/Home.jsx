@@ -1,6 +1,7 @@
 import Header from "../components/Header";
 import { projects } from "../data/projectData";
 import ProjectList from "../components/ProjectList";
+import { Link } from "react-router-dom";
 
 function Home() {
   return (
@@ -15,12 +16,15 @@ function Home() {
           through the different sections and learn more about me and my work.
         </p>
         <h2>Featured Projects</h2>
-        {/* <ProjectList
-          projects={projects.filter(
-            (project) => project.githubPagesUrl !== undefined,
-          )}
-        /> */}
-        <ProjectList projects={projects} limit={2} />
+        <ProjectList
+          projects={projects.filter((project) => project.featured === true)}
+        />
+        {/* <ProjectList projects={projects} limit={2} /> */}
+        <div>
+          <Link to="/projects" className="button--cta">
+            See More
+          </Link>
+        </div>
       </main>
     </>
   );

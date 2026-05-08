@@ -56,7 +56,7 @@ header {
   box-shadow: --shadow;
 }
 
-.project-card img {
+.project-card__thumbnail {
   width: auto;
   max-width: 100%;
   height: auto;
@@ -64,7 +64,7 @@ header {
   border-radius: 10px;
 }
 
-.sketch {
+.project-card__button--sketch {
   display: inline-block;
   margin: 10px;
   padding: 5px 10px;
@@ -73,7 +73,7 @@ header {
   border-radius: 5px;
   text-decoration: none;
 }
-.github-pages {
+.project-card__button--github-pages {
   display: inline-block;
   margin: 10px;
   padding: 5px 10px;
@@ -92,4 +92,14 @@ footer {
   align-items: start;
   grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
   gap: 20px;
+}
+
+.button--cta {
+  display: inline-block;
+  margin: 10px;
+  padding: 5px 10px;
+  background-color: #fd9b3f;
+  color: #000;
+  border-radius: 5px;
+  text-decoration: none;
 }
