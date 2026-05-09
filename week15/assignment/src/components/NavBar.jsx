@@ -4,9 +4,9 @@ export default function NavBar() {
   return (
     <nav className="navbar">
       <img
-        src="nat-logo-black.png"
+        src="nat-logo-white.png"
         alt="Nate's Logo"
-        className="logo"
+        className="navbar__logo"
         height={100}
       />
       <ul className="navbar__list">

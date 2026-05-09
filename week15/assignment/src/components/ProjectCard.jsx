@@ -2,6 +2,11 @@ import { useState } from "react";
 
 function ProjectCard({ name, description, url, image, githubPagesUrl }) {
   const [showDescription, setShowDescription] = useState(false);
+  const [isExpanded, setIsExpanded] = useState(false);
+
+  const toggleDescription = () => {
+    setIsExpanded((prevState) => !prevState);
+  };
 
   return (
     <div className="project-card">
@@ -15,32 +20,36 @@ function ProjectCard({ name, description, url, image, githubPagesUrl }) {
       </div>
       <div className="content">
         <h2>{name}</h2>
-        <button onClick={() => setShowDescription(!showDescription)}>
-          {showDescription ? "Hide Description" : "Show Description"}
+        {isExpanded ? (
+          <p className="project-card__description--full">{description}</p>
+        ) : (
+          <p className="project-card__description--truncated">{description}</p>
+        )}
+        <button onClick={toggleDescription} className="button button--tertiary">
+          {isExpanded ? "Show Less" : "Show More"}
         </button>
-        {showDescription && <p>{description}</p>}
 
-        <p>
+        <div className="project-card__button-row">
           <a
             href={url}
             target="_blank"
             rel="noopener noreferrer"
-            className="project-card__button--sketch"
+            className="button project-card__button--primary"
           >
-            View Sketch
+            View
           </a>
-        </p>
 
-        {githubPagesUrl && (
-          <a
-            href={githubPagesUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="project-card__button--github-pages"
-          >
-            Mobile-friendly Site
-          </a>
-        )}
+          {githubPagesUrl && (
+            <a
+              href={githubPagesUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="button project-card__button--secondary"
+            >
+              Site
+            </a>
+          )}
+        </div>
       </div>
     </div>
   );

@@ -3,84 +3,119 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
-  background-color: --bg;
-  color: --text;
+  background-color: var(--bg);
+  color: var(--text);
+}
+
+.button {
+  border: 2px solid var(--button-border);
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+}
+
+.button--tertiary {
+  display: inline-block;
+  margin: 10px;
+  background-color: #001c25;
+  color: #fff;
+  text-decoration: none;
+  border-color: #000;
 }
 
 .navbar {
   background-color: var(--bg);
   padding: 10px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  display: grid;
+  grid-template-columns: 1fr auto;
   margin-bottom: 1rem;
-  border: 1px solid #ccc;
+}
+.navbar__logo {
+  width: 75px;
+  height: auto;
 }
 .navbar__list {
-  width: fit-content;
   margin: 0 auto;
   list-style: none;
-  display: flex;
-  justify-content: flex-end;
-  gap: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 1rem;
+  align-items: center;
 }
 .navbar__item {
-  padding: 5px 10px;
   cursor: pointer;
-  border: 2px solid #ccc;
-  border-radius: 5px;
+  border-bottom: 2px solid var(--bg);
 }
 .navbar__link {
   text-decoration: none;
-  color: #111;
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.5rem;
 }
 .navbar__item:hover {
-  border: 2px solid #f7f0f0;
-  border-radius: 5px;
+  border-bottom: 2px solid #f7f0f0;
 }
 
 header {
   padding: 20px;
   border-radius: 10px;
   font-family: --heading;
+  color: #fff;
+  text-align: center;
 }
 
 .project-card {
-  padding: 20px;
-  background-color: #0077dd;
-  color: #fff;
+  padding: 1rem;
+  background-color: var(--card-bg);
+  color: var(--card-text);
   border-radius: 10px;
-  margin: 1rem auto;
-  width: 400px;
+  margin: 1rem 1rem;
+  width: auto;
+  max-width: 80%;
   font-family: --sans;
   box-shadow: --shadow;
 }
 
 .project-card__thumbnail {
   width: auto;
-  max-width: 100%;
+  max-width: 90%;
   height: auto;
-  max-height: 300px;
+  max-height: 200px;
+  margin: 15px;
   border-radius: 10px;
+  box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.9);
 }
 
-.project-card__button--sketch {
-  display: inline-block;
-  margin: 10px;
-  padding: 5px 10px;
-  background-color: #8abbe6;
-  color: #fff;
-  border-radius: 5px;
-  text-decoration: none;
+.project-card__description--truncated {
+  height: 1rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
-.project-card__button--github-pages {
+.project-card__description--full {
+  height: auto;
+  overflow: visible;
+}
+
+.project-card__button-row {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.project-card__button--primary {
   display: inline-block;
-  margin: 10px;
-  padding: 5px 10px;
-  background-color: #fd9b3f;
-  color: #000;
-  border-radius: 5px;
+  margin: 1rem;
+  background-color: var(--button-bg--primary);
+  color: var(--button-text);
   text-decoration: none;
+  width: 100%;
+}
+.project-card__button--secondary {
+  display: inline-block;
+  margin: 1rem;
+  background-color: var(--button-bg--secondary);
+  color: var(--button-text);
+  text-decoration: none;
+  width: 100%;
 }
 
 footer {
@@ -90,16 +125,6 @@ footer {
 .project-list {
   display: grid;
   align-items: start;
-  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   gap: 20px;
-}
-
-.button--cta {
-  display: inline-block;
-  margin: 10px;
-  padding: 5px 10px;
-  background-color: #fd9b3f;
-  color: #000;
-  border-radius: 5px;
-  text-decoration: none;
 }

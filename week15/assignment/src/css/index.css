@@ -1,8 +1,15 @@
 :root {
   --text: #6b6375;
+  --text: #25caff;
   --text-h: #08060d;
-  --bg: #fff;
-  --border: #e5e4e7;
+  --bg: #004258;
+  --border: #000000;
+  --button-border: #0042b8;
+  --button-bg--primary: #00b6f1;
+  --button-bg--secondary: #0090be;
+  --button-text: #001c25;
+  --card-bg: #00698b;
+  --card-text: #fff;
   --code-bg: #f4f3ec;
   --accent: #aa3bff;
   --accent-bg: rgba(170, 59, 255, 0.1);
@@ -26,6 +33,6 @@
   -moz-osx-font-smoothing: grayscale;
 
   @media (max-width: 1024px) {
-    font-size: 16px;
+    font: 16px/145% var(--sans);
   }
 }

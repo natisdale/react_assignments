@@ -1,11 +1,14 @@
 import ProjectList from "../components/ProjectList";
 import { projects } from "../data/projectData";
+import Header from "../components/Header";
 
 export default function Projects({ limit }) {
   return (
     <>
-      <h1>Projects</h1>
-      <p>This is a portfolio of my p5.js projects created with React.</p>
+      <Header
+        title="JavaScript Projects"
+        summary="A collection of my JavaScript projects using the p5.js library."
+      />
       <ProjectList projects={projects} />
     </>
   );

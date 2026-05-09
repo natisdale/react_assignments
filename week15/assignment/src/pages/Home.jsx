@@ -8,21 +8,21 @@ function Home() {
     <>
       <Header />
       <main>
-        <h1>Home</h1>
-        <p>
-          This is a portfolio website built using React. It showcases my
-          projects and skills as a developer. The website is designed to be
+        <Header
+          title="My Portfolio"
+          summary="This is a portfolio website built using the React library. It showcases my
+          projects and skills as a front-end developer using JavaScript and CSS. The website is designed to be
           responsive and user-friendly, allowing visitors to easily navigate
-          through the different sections and learn more about me and my work.
-        </p>
+          through the different sections and learn more about me and my work."
+        />
         <h2>Featured Projects</h2>
         <ProjectList
           projects={projects.filter((project) => project.featured === true)}
         />
         {/* <ProjectList projects={projects} limit={2} /> */}
         <div>
-          <Link to="/projects" className="button--cta">
-            See More
+          <Link to="/projects" className="button button--tertiary">
+            See All Projects
           </Link>
         </div>
       </main>
