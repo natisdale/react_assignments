@@ -128,3 +128,11 @@ footer {
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   gap: 20px;
 }
+
+.head-shot {
+  width: auto;
+  max-width: 200px;
+  height: auto;
+  border-radius: 50%;
+  margin-top: 20px;
+}
